@@ -1,0 +1,75 @@
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .txts {
+        margin-top: 80%;
+        margin-left: 35%;
+        width: 80%;
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .segundo {
+        height: auto;
+    }
+    .imagem {
+        height: auto;
+    }
+    .info {
+        height: auto;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+    .segundo2 {
+        height: auto;
+        padding-top: 5%;
+    }
+    .titulo {
+        width: 100%;
+        height: 1%;
+    }
+    .parte {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .area {
+        background: transparent;
+        display: block;
+        width: 100%;
+        margin: auto;
+        margin: 0%;
+    }
+    .omg {
+        color: aliceblue;
+        margin: auto;
+        text-align: center;
+    }
+    .geral {
+        margin: auto;
+        height: 40vh;
+        width: 40vh;
+        margin-bottom: 0%;
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width: 800px) and (max-width: 959px) {
+    .areab {
+        display: block;
+        width: 40vh;
+        height: calc(100vh/3);
+        margin: auto;
+        margin-top: 5%;
+    }
+    #computador {
+        margin-top: 10%;
+    }
+    .interesse {
+        height: auto;
+        padding-top: 5%;
+        font-size: 10%;
+    }
+}
