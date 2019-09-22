@@ -11,6 +11,9 @@
 <link rel="stylesheet" href="css/responsividade3.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lily+Script+One&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
+</script>
+<script src="js/main.js"></script>
 <!-- <a href='https://pngtree.com/so/computador desktop'>computador desktop png from pngtree.com</a> -->
 
 <body>
@@ -67,9 +70,9 @@
     <div class="interesse">
         <hr class="hr_configuracao2" />
         <div class="titulo">ÁREAS DE INTERESSE</div>
-        <abbr title="Computação"><div class="areab" id="computador"></div></abbr>
-        <abbr title="Livros"><div class="areab" id="livros"></div></abbr>
-        <abbr title="Poemas"><div class="areab" id="poemas"></div></abbr>
+        <div class="areab" id="computador" onclick="clicou(this.id)"></div>
+        <div class="areab" id="livros" onclick="clicou(this.id)"></div>
+        <div class="areab" id="poemas" onclick="clicou(this.id)"></div>
     </div>
     <div class="segundo" id="tudo">
         <div class="info" id="msg">
