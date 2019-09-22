@@ -219,6 +219,17 @@ body {
 #poemas {
     background-image: url("../imagem/poema.png");
 }
+#livros:hover {
+    background-image: url("../imagem/mds2.png");
+}
+
+#computador:hover {
+    background-image: url("../imagem/mds.png");
+}
+
+#poemas:hover {
+    background-image: url("../imagem/mds3.png");
+}
 
 .interesse {
     width: 100%;
